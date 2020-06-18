@@ -1,5 +1,5 @@
 def find_max_value(array)
-  highest = nil
+  highest = 0
   array.length.times do |index|
     if array[index] > highest
       highest = array[index]
